@@ -1,9 +1,103 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="26.1.2">
   <diagram name="第 1 页" id="fsZPGQLROvwWvlIkThc0">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="307" />
+              <mxPoint x="280" y="850" />
+              <mxPoint x="350" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-2" value="！=6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T44GqVOQwQVN-KxTf4lZ-1">
+          <mxGeometry x="-0.3877" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-5" target="T44GqVOQwQVN-KxTf4lZ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-4" value="=8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T44GqVOQwQVN-KxTf4lZ-3">
+          <mxGeometry x="-0.1655" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-5" value="字段数量" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="418" y="273" width="90" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-7" target="T44GqVOQwQVN-KxTf4lZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-7" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="433" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-9" target="T44GqVOQwQVN-KxTf4lZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-9" value="根据换行符把文本转成String[]数组" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="121" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-11" target="T44GqVOQwQVN-KxTf4lZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-11" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;Aed7douATo9B6cx0R7Rc3emsnXd&quot;&gt;&lt;div class=&quot;old-record-id-WZW5dhf2ooNl1qxLG0lcdsG0n3e&quot;&gt;以空格（“ ”）或半角逗号（,）或全角逗号（，）作为分隔，把每一行拆分字段&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;Aed7douATo9B6cx0R7Rc3emsnXd&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;以空格（“ ”）或半角逗号（,）或全角逗号（，）作为分隔，拆分元素&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+x&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;011ff010-0866-426b-a94f-de44540d47f7&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:1293,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:4,&amp;quot;end&amp;quot;:37},&amp;quot;recordId&amp;quot;:&amp;quot;WZW5dhf2ooNl1qxLG0lcdsG0n3e&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="388" y="190" width="150" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-13" target="T44GqVOQwQVN-KxTf4lZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-13" value="&lt;font&gt;按照：（&lt;span style=&quot;background-color: transparent;&quot;&gt;债券简称、债券代码、类型与期限、年限、发行数量、边际利率、边际倍数、全场倍数&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;font&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;Aed7douATo9B6cx0R7Rc3emsnXd&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;债券简称、债券代码、类型与期限、年限、发行数量、边际利率、边际倍数、全场倍数&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+12&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;788528d0-5e0e-4c7f-8d60-cfeaeebf4ef1&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:1316,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:5,&amp;quot;end&amp;quot;:43},&amp;quot;recordId&amp;quot;:&amp;quot;LA4bdD6fjouorxx8NuWcUlaUncd&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;）结构解析&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="385.25" y="391" width="155.5" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-15" target="T44GqVOQwQVN-KxTf4lZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-15" value="按照各自的结构给相应的字段赋值,并去掉【债券简称】中的&quot;（一般）&quot; &quot;（专项）&quot;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="393" y="506" width="139.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-20" target="T44GqVOQwQVN-KxTf4lZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-17" value="包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T44GqVOQwQVN-KxTf4lZ-16">
+          <mxGeometry x="-0.18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-20" target="T44GqVOQwQVN-KxTf4lZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-19" value="不包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T44GqVOQwQVN-KxTf4lZ-18">
+          <mxGeometry x="0.2471" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-20" value="债券简称包含增发、者续发任一或债券编码包含X、Y任一" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="398" y="596" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-21" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="423" y="828" width="80" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-23" target="T44GqVOQwQVN-KxTf4lZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-23" value="走增发、续发流程" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="403" y="736" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T44GqVOQwQVN-KxTf4lZ-25" target="T44GqVOQwQVN-KxTf4lZ-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="663" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T44GqVOQwQVN-KxTf4lZ-25" value="走新发债流程" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="603" y="616" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
