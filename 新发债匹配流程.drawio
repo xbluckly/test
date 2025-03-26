@@ -12,47 +12,8 @@
         <mxCell id="l9sripq_5CfTnT3xhVof-6" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="433" y="40" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-14" target="l9sripq_5CfTnT3xhVof-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-14" value="把匹配的债券简称包含贴现债标记为贴现债,根据combination_code查询bond_basic.issue_coupon" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="384.63" y="410" width="156.75" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-19" target="l9sripq_5CfTnT3xhVof-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-16" value="包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9sripq_5CfTnT3xhVof-15">
-          <mxGeometry x="-0.18" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-19" target="l9sripq_5CfTnT3xhVof-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-18" value="不包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9sripq_5CfTnT3xhVof-17">
-          <mxGeometry x="0.2471" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-19" value="债券简称包含增发、者续发任一或债券编码包含X、Y任一" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="398" y="596" width="130" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="l9sripq_5CfTnT3xhVof-20" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="423" y="828" width="80" height="43.5" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-22" target="l9sripq_5CfTnT3xhVof-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-22" value="走增发、续发流程" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="403" y="736" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-24" target="l9sripq_5CfTnT3xhVof-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="663" y="756" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-24" value="走新发债流程" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="603" y="616" width="120" height="60" as="geometry" />
+          <mxGeometry x="422.37" y="960" width="80" height="43.5" as="geometry" />
         </mxCell>
         <mxCell id="l9sripq_5CfTnT3xhVof-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-28" target="l9sripq_5CfTnT3xhVof-30">
           <mxGeometry relative="1" as="geometry" />
@@ -60,22 +21,12 @@
         <mxCell id="l9sripq_5CfTnT3xhVof-28" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;Aed7douATo9B6cx0R7Rc3emsnXd&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-Ok8HdJDNqog325xrWxfceNuunWh&quot;&gt;&amp;nbsp; 如果匹配不上根据债券编码匹配main_security.security_code&lt;/div&gt;&lt;div class=&quot;ace-line ace-line old-record-id-U170dsWV5ouliXx36R1cMYBwnjh&quot;&gt;&amp;nbsp;&amp;nbsp;匹配时：如果债券编码不包含交易市场信息,在债券编码后拼接上交易市场&lt;/div&gt;&lt;div class=&quot;ace-line ace-line old-record-id-OApXdDIfzolyv1xDMULcFpecnWa&quot;&gt;&amp;nbsp;&amp;nbsp; 拼接顺序:  .IB&amp;gt;.SH&amp;gt;.SZ&amp;gt;.BJ &lt;br&gt;最后通过&lt;span style=&quot;background-color: transparent;&quot;&gt;bond_code_convert把匹配的sec_uni_code转成combination_code&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/record&quot; data-lark-record-data=&quot;{&amp;quot;isCut&amp;quot;:false,&amp;quot;rootId&amp;quot;:&amp;quot;Aed7douATo9B6cx0R7Rc3emsnXd&amp;quot;,&amp;quot;parentId&amp;quot;:&amp;quot;PbEFdPpbyoQQVMx5GCNcPsgcnbX&amp;quot;,&amp;quot;blockIds&amp;quot;:[1329,1330,1326],&amp;quot;recordIds&amp;quot;:[&amp;quot;Ok8HdJDNqog325xrWxfceNuunWh&amp;quot;,&amp;quot;U170dsWV5ouliXx36R1cMYBwnjh&amp;quot;,&amp;quot;OApXdDIfzolyv1xDMULcFpecnWa&amp;quot;],&amp;quot;recordMap&amp;quot;:{&amp;quot;OApXdDIfzolyv1xDMULcFpecnWa&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;OApXdDIfzolyv1xDMULcFpecnWa&amp;quot;,&amp;quot;snapshot&amp;quot;:{&amp;quot;parent_id&amp;quot;:&amp;quot;PbEFdPpbyoQQVMx5GCNcPsgcnbX&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;children&amp;quot;:[],&amp;quot;comments&amp;quot;:[],&amp;quot;revisions&amp;quot;:[],&amp;quot;author&amp;quot;:&amp;quot;7403194829083705347&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot; 拼接顺序:  .IB&gt;.SH&gt;.SZ&gt;.BJ &amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+o&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;folded&amp;quot;:false,&amp;quot;text_indent&amp;quot;:0}},&amp;quot;Ok8HdJDNqog325xrWxfceNuunWh&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;Ok8HdJDNqog325xrWxfceNuunWh&amp;quot;,&amp;quot;snapshot&amp;quot;:{&amp;quot;parent_id&amp;quot;:&amp;quot;PbEFdPpbyoQQVMx5GCNcPsgcnbX&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;children&amp;quot;:[],&amp;quot;comments&amp;quot;:[],&amp;quot;revisions&amp;quot;:[],&amp;quot;author&amp;quot;:&amp;quot;7403194829083705347&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;如果匹配不上根据债券编码匹配main_security.security_code&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+15&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;folded&amp;quot;:false}},&amp;quot;U170dsWV5ouliXx36R1cMYBwnjh&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;U170dsWV5ouliXx36R1cMYBwnjh&amp;quot;,&amp;quot;snapshot&amp;quot;:{&amp;quot;parent_id&amp;quot;:&amp;quot;PbEFdPpbyoQQVMx5GCNcPsgcnbX&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;children&amp;quot;:[],&amp;quot;comments&amp;quot;:[],&amp;quot;revisions&amp;quot;:[],&amp;quot;author&amp;quot;:&amp;quot;7403194829083705347&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;匹配时：如果债券编码不包含交易市场信息,在债券编码后拼接上交易市场&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+x&amp;quot;},&amp;quot;rows&amp;quot;:{},&amp;quot;cols&amp;quot;:{}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1,&amp;quot;attribToNum&amp;quot;:{&amp;quot;author,7403194829083705347&amp;quot;:0}}},&amp;quot;folded&amp;quot;:false}},&amp;quot;PbEFdPpbyoQQVMx5GCNcPsgcnbX&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;PbEFdPpbyoQQVMx5GCNcPsgcnbX&amp;quot;,&amp;quot;snapshot&amp;quot;:{&amp;quot;parent_id&amp;quot;:&amp;quot;Hi3hdM5T4oeO9gxYRoicHyLxnah&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;children&amp;quot;:[&amp;quot;Cyj0dWNAPomNcLx2lZZcVyJznbf&amp;quot;,&amp;quot;Ok8HdJDNqog325xrWxfceNuunWh&amp;quot;,&amp;quot;U170dsWV5ouliXx36R1cMYBwnjh&amp;quot;,&amp;quot;OApXdDIfzolyv1xDMULcFpecnWa&amp;quot;,&amp;quot;Bc1adQ8gnov3t8x5avEchllJn0d&amp;quot;,&amp;quot;NgIIdmxvpoQHESxAfVdc74RMnrY&amp;quot;],&amp;quot;comments&amp;quot;:[],&amp;quot;revisions&amp;quot;:[],&amp;quot;author&amp;quot;:&amp;quot;7403194829083705347&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1,&amp;quot;attribToNum&amp;quot;:{&amp;quot;author,7403194829083705347&amp;quot;:0}},&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;5,新发债匹配流程&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+9&amp;quot;},&amp;quot;rows&amp;quot;:{},&amp;quot;cols&amp;quot;:{}}},&amp;quot;folded&amp;quot;:false}}},&amp;quot;payloadMap&amp;quot;:{&amp;quot;Ok8HdJDNqog325xrWxfceNuunWh&amp;quot;:{&amp;quot;level&amp;quot;:2},&amp;quot;U170dsWV5ouliXx36R1cMYBwnjh&amp;quot;:{&amp;quot;level&amp;quot;:2},&amp;quot;OApXdDIfzolyv1xDMULcFpecnWa&amp;quot;:{&amp;quot;level&amp;quot;:2}},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;46fb7dec-91c3-465f-9ec3-caed69e196a9&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{},&amp;quot;isEqualBlockSelection&amp;quot;:true},&amp;quot;isKeepQuoteContainer&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:1329,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:41},&amp;quot;recordId&amp;quot;:&amp;quot;Ok8HdJDNqog325xrWxfceNuunWh&amp;quot;},{&amp;quot;id&amp;quot;:1330,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:33},&amp;quot;recordId&amp;quot;:&amp;quot;U170dsWV5ouliXx36R1cMYBwnjh&amp;quot;},{&amp;quot;id&amp;quot;:1326,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:24},&amp;quot;recordId&amp;quot;:&amp;quot;OApXdDIfzolyv1xDMULcFpecnWa&amp;quot;}],&amp;quot;pasteFlag&amp;quot;:&amp;quot;4bad5c61-66b6-4113-867a-fe3f38da0dbc&amp;quot;}&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="348.87" y="120" width="227" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-30" target="l9sripq_5CfTnT3xhVof-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="462" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l9sripq_5CfTnT3xhVof-34" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9sripq_5CfTnT3xhVof-33">
-          <mxGeometry x="0.0088" y="4" relative="1" as="geometry">
-            <mxPoint y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="l9sripq_5CfTnT3xhVof-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="850" as="targetPoint" />
+            <mxPoint x="420" y="980" as="targetPoint" />
             <Array as="points">
               <mxPoint x="290" y="300" />
-              <mxPoint x="290" y="850" />
+              <mxPoint x="290" y="980" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -84,8 +35,65 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-30" target="l9sripq_5CfTnT3xhVof-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-47" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9sripq_5CfTnT3xhVof-46">
+          <mxGeometry x="-0.0634" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="l9sripq_5CfTnT3xhVof-30" value="是否匹配成功" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="412.37" y="260" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-38" target="l9sripq_5CfTnT3xhVof-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-38" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;Aed7douATo9B6cx0R7Rc3emsnXd&quot;&gt;&lt;div class=&quot;old-record-id-Y06CdZKERo4gitxMXKTcp8nAnag&quot;&gt;票面利率取值规则：优先取加权利率，没有值再取边际利率&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;Aed7douATo9B6cx0R7Rc3emsnXd&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;票面利率取值规则：优先取加权利率，没有值再取边际利率&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+q&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;f53fae7a-b66b-4820-86e4-39ea425e8903&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:1334,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:26},&amp;quot;recordId&amp;quot;:&amp;quot;Y06CdZKERo4gitxMXKTcp8nAnag&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="379.51" y="380" width="167" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-40" target="l9sripq_5CfTnT3xhVof-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-40" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;Aed7douATo9B6cx0R7Rc3emsnXd&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-IPHzd5iJQo4ANGxoBNIcWaeeneb&quot;&gt;&amp;nbsp; 混合式同时有加权利率和边际利率，其它三种格式只有一个利率 映射到表的边际利率，边际倍数、全场倍数对应赋值&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;Aed7douATo9B6cx0R7Rc3emsnXd&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;只有混合式同时有加权利率和边际利率，其它三种格式只有一个利率 映射到表的边际利率&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+14&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:true,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;f9e04e7d-997b-4b29-a2a9-bf7771be949f&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:true,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:1333,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:40},&amp;quot;recordId&amp;quot;:&amp;quot;IPHzd5iJQo4ANGxoBNIcWaeeneb&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="378" y="470" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-42" target="l9sripq_5CfTnT3xhVof-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;有值才更新表 bond_issue 的边际利率、加权利率，边际倍数、全场倍数&lt;/div&gt;&lt;div&gt;where combination_code={#combination_code}&amp;nbsp; and issue_num=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="349.2" y="570" width="227.63" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-44" target="l9sripq_5CfTnT3xhVof-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-52" value="包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9sripq_5CfTnT3xhVof-49">
+          <mxGeometry x="-0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-44" target="l9sripq_5CfTnT3xhVof-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592.3699999999999" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="730" />
+              <mxPoint x="600" y="982" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-55" value="不包含" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l9sripq_5CfTnT3xhVof-54">
+          <mxGeometry x="-0.724" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-44" value="匹配的债券简称包含贴现" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="407.37" y="680" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l9sripq_5CfTnT3xhVof-48" target="l9sripq_5CfTnT3xhVof-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l9sripq_5CfTnT3xhVof-48" value="更新bond_basic.issue_coupon发行票面利率" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="389.2" y="830" width="147.63" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
