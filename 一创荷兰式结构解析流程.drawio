@@ -53,13 +53,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UHaGkuikgzC3n1O92evb-28" value="取数组第一个字段作为债券简称,并去掉【债券简称】中的&quot;（一般）&quot; &quot;（专项）&quot;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="394.5" y="405" width="137" height="60" as="geometry" />
+          <mxGeometry x="350.25" y="380" width="225.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="YJC993HEPV_NVT-zD8WA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UHaGkuikgzC3n1O92evb-32" target="YJC993HEPV_NVT-zD8WA-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UHaGkuikgzC3n1O92evb-32" value="从第3个字段开始循环处理，根据字段的值包含相应的关键字，把对应的值赋给相应的字段" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="393" y="495" width="139.5" height="65" as="geometry" />
+          <mxGeometry x="354.5" y="460" width="217" height="53" as="geometry" />
         </mxCell>
         <mxCell id="UHaGkuikgzC3n1O92evb-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UHaGkuikgzC3n1O92evb-37" target="UHaGkuikgzC3n1O92evb-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -97,11 +97,17 @@
         <mxCell id="UHaGkuikgzC3n1O92evb-42" value="走新发债流程" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="603" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YJC993HEPV_NVT-zD8WA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJC993HEPV_NVT-zD8WA-2" target="UHaGkuikgzC3n1O92evb-37">
+        <mxCell id="YJC993HEPV_NVT-zD8WA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJC993HEPV_NVT-zD8WA-2" target="YJC993HEPV_NVT-zD8WA-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YJC993HEPV_NVT-zD8WA-2" value="&lt;div&gt;marginalRate：[边际利率]&lt;/div&gt;&lt;div&gt;weightedRate：[加权利率]&lt;/div&gt;&lt;div&gt;marginalMult：[边际倍数，边际]&lt;/div&gt;&lt;div&gt;compliantSubscriptionMult：[全场倍数，全场]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="369.5" y="606" width="187" height="92.5" as="geometry" />
+          <mxGeometry x="362.75" y="543" width="200.5" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="YJC993HEPV_NVT-zD8WA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YJC993HEPV_NVT-zD8WA-7" target="UHaGkuikgzC3n1O92evb-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJC993HEPV_NVT-zD8WA-7" value="&lt;div&gt;边际利率,加权利率 把有值的赋值&lt;/div&gt;&lt;div&gt;给边际利率，然后把加权利率清空,最后票面利率=边际利率&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="363.25" y="643" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
