@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="ayxEnjjGX8nraHOeBxiZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-1" target="c-lmUwn-pgrmpSaxPBkZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="189" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-2" target="c-lmUwn-pgrmpSaxPBkZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-2" value="获取缓存中的lastUpdateTime,&lt;br&gt;如果为null 取当前时间&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;select&amp;nbsp; * from bond_issue&lt;/span&gt;&lt;div&gt;where update_time&amp;gt;={lastUpdateTime}&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="114" y="90" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-6" target="c-lmUwn-pgrmpSaxPBkZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-6" value="&lt;div&gt;获取一条根据id查询&lt;/div&gt;&lt;div&gt;select&amp;nbsp; * from bond_amount&amp;nbsp;&lt;/div&gt;&lt;div&gt;where source_id={id}&amp;nbsp;&lt;/div&gt;&lt;div&gt;and change_reason in (1,4)&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="149" y="182" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-8" target="c-lmUwn-pgrmpSaxPBkZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-14" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c-lmUwn-pgrmpSaxPBkZ-11">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-8" target="c-lmUwn-pgrmpSaxPBkZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-15" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c-lmUwn-pgrmpSaxPBkZ-13">
+          <mxGeometry x="-0.125" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-8" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="189" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-10" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="189" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-12" target="c-lmUwn-pgrmpSaxPBkZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-18" value="首发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c-lmUwn-pgrmpSaxPBkZ-17">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-12" target="c-lmUwn-pgrmpSaxPBkZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-21" value="增发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="c-lmUwn-pgrmpSaxPBkZ-20">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-12" target="c-lmUwn-pgrmpSaxPBkZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-12" value="数据满足" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="394" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-16" value="&lt;div&gt;actu_issue_amount is not null&lt;/div&gt;&lt;div&gt;and issue_fail_status!=1 and issue_num=0&lt;/div&gt;&lt;div&gt;and not exists(select 1 from bond_amount b&amp;nbsp;&lt;/div&gt;&lt;div&gt;where b.combination_code=a.combination_code&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; and b.valid_status=1)&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="299" y="404" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-19" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
