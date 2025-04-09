@@ -1,9 +1,114 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="JaV3rzGPgushEdzIN6y_">
-    <mxGraphModel>
+    <mxGraphModel dx="1428" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ldTZMurFETTUI3CgluB4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-2" target="ldTZMurFETTUI3CgluB4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="382" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-4" target="ldTZMurFETTUI3CgluB4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-4" value="查询需要处理提前返本的数据列表，记录下源ids集合" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="135" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-5" value="&lt;div&gt;select&amp;nbsp; a.id,a.interest_end_date,b.*&lt;/div&gt;&lt;div&gt;from bond_cash_flow_pre a join&amp;nbsp; bond_amount b&amp;nbsp;&lt;/div&gt;&lt;div&gt;on a.bond_id=b.combination_code&amp;nbsp;&lt;/div&gt;&lt;div&gt;and a.deleted=0 and b.valid_status=1&lt;/div&gt;&lt;div&gt;join&amp;nbsp; bond_basic c on a.bond_id=c.combination_code&lt;/div&gt;&lt;div&gt;and c.valid_status=1&lt;/div&gt;&lt;div&gt;where change_reason=1&amp;nbsp;&lt;/div&gt;&lt;div&gt;and payment_type=1 and principal&amp;gt;0&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="562" y="20" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-4" target="ldTZMurFETTUI3CgluB4-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="482" y="290" as="sourcePoint" />
+            <mxPoint x="532" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-10" target="ldTZMurFETTUI3CgluB4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-8" value="有数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ldTZMurFETTUI3CgluB4-7">
+          <mxGeometry x="-0.0933" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-10" target="ldTZMurFETTUI3CgluB4-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-55" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ldTZMurFETTUI3CgluB4-52">
+          <mxGeometry x="-0.4545" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-10" value="获取一条" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="255" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-12" target="ldTZMurFETTUI3CgluB4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-12" value="根据映射关系生成一条到期还本的数据BondAmountDO" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-24" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="367" y="720" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-27" target="ldTZMurFETTUI3CgluB4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-27" value="根据业务主键(combination_code,&lt;br&gt;change_date,&lt;br&gt;change_reason)进行更新或者插入bond_amount" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="460" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-31" target="ldTZMurFETTUI3CgluB4-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-31" value="债券组合编码加入combinationCodes集合" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="582" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-39" target="ldTZMurFETTUI3CgluB4-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-37" value="有数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ldTZMurFETTUI3CgluB4-36">
+          <mxGeometry x="-0.2791" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-39" target="ldTZMurFETTUI3CgluB4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-39" value="从combinationCodes获&lt;br&gt;取一个组合编码" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="58" y="350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-41" target="ldTZMurFETTUI3CgluB4-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="505" as="sourcePoint" />
+            <mxPoint x="-5" y="505" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="560" />
+              <mxPoint x="30" y="560" />
+              <mxPoint x="30" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-41" value="根据组合编码 按照change_date 正序处理remain_amount" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="63" y="527" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-47" target="ldTZMurFETTUI3CgluB4-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-47" value="查询bond_amount所有有效的提前还本的&lt;br&gt;sourceids集合" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ldTZMurFETTUI3CgluB4-50" target="ldTZMurFETTUI3CgluB4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldTZMurFETTUI3CgluB4-50" value="sourceids与ids的差对应的记录更新成无效，并把无效的组合编码加入到combinationCodes" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="250" width="135" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
