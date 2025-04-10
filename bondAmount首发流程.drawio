@@ -196,9 +196,10 @@
         <mxCell id="valkKrdEVA-r8oJt1_8x-1" value="updateBy=255" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="189" y="600" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="valkKrdEVA-r8oJt1_8x-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="valkKrdEVA-r8oJt1_8x-8">
+        <mxCell id="valkKrdEVA-r8oJt1_8x-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="valkKrdEVA-r8oJt1_8x-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" y="1020" as="targetPoint" />
+            <mxPoint x="104.5" y="946" as="sourcePoint" />
+            <mxPoint x="104.5" y="1020.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="valkKrdEVA-r8oJt1_8x-8" value="把A.组合编码对应的4,7,8且updateBy=255的数据更新成无效" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
