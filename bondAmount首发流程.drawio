@@ -144,7 +144,7 @@
             <mxPoint x="109" y="240" as="targetPoint" />
             <Array as="points">
               <mxPoint x="10" y="240" />
-              <mxPoint x="10" y="1070" />
+              <mxPoint x="10" y="1116" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -156,31 +156,35 @@
         <mxCell id="c-lmUwn-pgrmpSaxPBkZ-49" value="获取一条" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="189" y="200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-53" target="c-lmUwn-pgrmpSaxPBkZ-49" edge="1">
+        <mxCell id="c-lmUwn-pgrmpSaxPBkZ-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="valkKrdEVA-r8oJt1_8x-12" target="c-lmUwn-pgrmpSaxPBkZ-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="229.5" y="1038" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="978" />
-              <mxPoint x="770" y="978" />
+              <mxPoint x="770" y="1015" />
               <mxPoint x="770" y="240" />
             </Array>
+            <mxPoint x="320" y="1010" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="valkKrdEVA-r8oJt1_8x-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c-lmUwn-pgrmpSaxPBkZ-53" target="valkKrdEVA-r8oJt1_8x-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c-lmUwn-pgrmpSaxPBkZ-53" value="更新change_reason in (4.7.8)且updateBy=255,和max(change_date)相关的字段(当4,7,8和1相临时)" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="149" y="898" width="161" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c-lmUwn-pgrmpSaxPBkZ-70" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="179.5" y="1040" width="100" height="60" as="geometry" />
+          <mxGeometry x="179.5" y="1086" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="valkKrdEVA-r8oJt1_8x-4" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="valkKrdEVA-r8oJt1_8x-1" target="c-lmUwn-pgrmpSaxPBkZ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="valkKrdEVA-r8oJt1_8x-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="valkKrdEVA-r8oJt1_8x-1" target="c-lmUwn-pgrmpSaxPBkZ-53">
+        <mxCell id="valkKrdEVA-r8oJt1_8x-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="valkKrdEVA-r8oJt1_8x-1" target="valkKrdEVA-r8oJt1_8x-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="129" y="625" as="targetPoint" />
+            <mxPoint x="140" y="1020" as="targetPoint" />
             <Array as="points">
               <mxPoint x="30" y="625" />
-              <mxPoint x="30" y="928" />
+              <mxPoint x="30" y="1020" />
+              <mxPoint x="170" y="1020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -194,11 +198,14 @@
         </mxCell>
         <mxCell id="valkKrdEVA-r8oJt1_8x-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="valkKrdEVA-r8oJt1_8x-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="104.5" y="927.75" as="targetPoint" />
+            <mxPoint x="105" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="valkKrdEVA-r8oJt1_8x-8" value="把A.组合编码对应的4,7,8且updateBy=255的数据更新成无效" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="44.5" y="803.5" width="120" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="valkKrdEVA-r8oJt1_8x-12" value="空处理" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="169.5" y="1000" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
