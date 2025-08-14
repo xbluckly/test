@@ -146,6 +146,9 @@
         <mxCell id="-epTfQVmLfO2ETFPgfMP-7" value="监听main_security证券新增、补充sec_uni_code" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="185" y="660" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-epTfQVmLfO2ETFPgfMP-14" value="股票、其它资产先接入ODS层，数据观察分析后再决定如何处理" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="550" y="125" width="130" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
