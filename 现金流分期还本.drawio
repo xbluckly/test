@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="第 1 页" id="ort-7O3NrMFB5eXvq8XH">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-33" target="7S8gAaQm4tei1ro1X5S6-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-33" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="371" y="67" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-64" target="7S8gAaQm4tei1ro1X5S6-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-64" value="计息周期直接从bond_cash_flow_pre取&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%AF%8F%E6%9C%9F%E6%9C%88%E6%95%B0%3D12%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(rgb(0%2C%200%2C%200)%2C%20rgb(255%2C%20255%2C%20255))%3B%26quot%3B%26gt%3B%C3%B7%E5%B9%B4%E4%BB%98%E6%81%AF%E6%AC%A1%E6%95%B0%26lt%3B%2Fspan%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3Bspan%20class%3D%26quot%3Blark-record-clipboard%26quot%3B%20data-lark-record-format%3D%26quot%3Bdocx%2Ftext%26quot%3B%20data-lark-record-data%3D%26quot%3B%7B%26amp%3Bquot%3BrootId%26amp%3Bquot%3B%3A%26amp%3Bquot%3BUaSydFmrdorRRYxYeVCctr97nKg%26amp%3Bquot%3B%2C%26amp%3Bquot%3Btext%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3BinitialAttributedTexts%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3Btext%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3B0%26amp%3Bquot%3B%3A%26amp%3Bquot%3B%C3%B7%20%26amp%3Bquot%3B%7D%2C%26amp%3Bquot%3Battribs%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3B0%26amp%3Bquot%3B%3A%26amp%3Bquot%3B*0%2B2%26amp%3Bquot%3B%7D%7D%2C%26amp%3Bquot%3Bapool%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3BnumToAttrib%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3B0%26amp%3Bquot%3B%3A%5B%26amp%3Bquot%3Bauthor%26amp%3Bquot%3B%2C%26amp%3Bquot%3B7448941819208990739%26amp%3Bquot%3B%5D%7D%2C%26amp%3Bquot%3BnextNum%26amp%3Bquot%3B%3A1%7D%7D%2C%26amp%3Bquot%3Btype%26amp%3Bquot%3B%3A%26amp%3Bquot%3Btext%26amp%3Bquot%3B%2C%26amp%3Bquot%3BreferenceRecordMap%26amp%3Bquot%3B%3A%7B%7D%2C%26amp%3Bquot%3Bextra%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3Bchannel%26amp%3Bquot%3B%3A%26amp%3Bquot%3Bsaas%26amp%3Bquot%3B%2C%26amp%3Bquot%3BisEqualBlockSelection%26amp%3Bquot%3B%3Afalse%2C%26amp%3Bquot%3BpasteRandomId%26amp%3Bquot%3B%3A%26amp%3Bquot%3Be74e2f4c-afd6-4dc6-8306-b379933d5fe6%26amp%3Bquot%3B%2C%26amp%3Bquot%3Bmention_page_title%26amp%3Bquot%3B%3A%7B%7D%2C%26amp%3Bquot%3Bexternal_mention_url%26amp%3Bquot%3B%3A%7B%7D%7D%2C%26amp%3Bquot%3BisKeepQuoteContainer%26amp%3Bquot%3B%3Afalse%2C%26amp%3Bquot%3BisFromCode%26amp%3Bquot%3B%3Afalse%2C%26amp%3Bquot%3Bselection%26amp%3Bquot%3B%3A%5B%7B%26amp%3Bquot%3Bid%26amp%3Bquot%3B%3A103%2C%26amp%3Bquot%3Btype%26amp%3Bquot%3B%3A%26amp%3Bquot%3Btext%26amp%3Bquot%3B%2C%26amp%3Bquot%3Bselection%26amp%3Bquot%3B%3A%7B%26amp%3Bquot%3Bstart%26amp%3Bquot%3B%3A6%2C%26amp%3Bquot%3Bend%26amp%3Bquot%3B%3A8%7D%2C%26amp%3Bquot%3BrecordId%26amp%3Bquot%3B%3A%26amp%3Bquot%3BS0H6dlG8koB8DIxgdnQcGW4onNf%26amp%3Bquot%3B%7D%5D%2C%26amp%3Bquot%3BpayloadMap%26amp%3Bquot%3B%3A%7B%7D%2C%26amp%3Bquot%3BisCut%26amp%3Bquot%3B%3Afalse%7D%26quot%3B%26gt%3B%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D2%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22351%22%20y%3D%22297%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="351" y="177" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-66" target="7S8gAaQm4tei1ro1X5S6-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-70" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7S8gAaQm4tei1ro1X5S6-69">
+          <mxGeometry x="-0.1111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-66" target="7S8gAaQm4tei1ro1X5S6-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-66" value="是否最后一期" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="310" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-68" target="7S8gAaQm4tei1ro1X5S6-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-68" value="完整周期的截日=inte_start_date+(12/付息此时)月-1天" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="351" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-71" target="7S8gAaQm4tei1ro1X5S6-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-75" value="等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7S8gAaQm4tei1ro1X5S6-74">
+          <mxGeometry x="-0.2889" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-71" target="7S8gAaQm4tei1ro1X5S6-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-79" value="不等于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7S8gAaQm4tei1ro1X5S6-77">
+          <mxGeometry x="-0.0681" y="4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-71" value="完整周期的截日=inte_end_date" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335.5" y="560" width="151" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-73" target="7S8gAaQm4tei1ro1X5S6-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-73" value="票面利率÷年付息次数*&lt;strong style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;剩余本金比例&lt;/strong&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="351" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-76" target="7S8gAaQm4tei1ro1X5S6-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-76" value="根据计息规则计算应付利息*&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;UaSydFmrdorRRYxYeVCctr97nKg&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;剩余本金比例&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0*1+6&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7448941819208990739&amp;quot;],&amp;quot;1&amp;quot;:[&amp;quot;bold&amp;quot;,&amp;quot;true&amp;quot;]},&amp;quot;nextNum&amp;quot;:2}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;966602dc-bd6b-4adb-a1b9-75d240285c2e&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:183,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:6},&amp;quot;recordId&amp;quot;:&amp;quot;PwdXdFTWzoIkOvxThdEclrdTnod&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;剩余本金比例&lt;/strong&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="582" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-80" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7S8gAaQm4tei1ro1X5S6-84" target="7S8gAaQm4tei1ro1X5S6-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7S8gAaQm4tei1ro1X5S6-84" value="票面利率÷年付息次数*&lt;strong style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;剩余本金比例&lt;/strong&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
