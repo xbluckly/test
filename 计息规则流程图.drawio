@@ -56,8 +56,21 @@
         <mxCell id="Xua5OyNjd9KO3NnlXsPz-11" value="=3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="177" y="320" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-13" target="Xua5OyNjd9KO3NnlXsPz-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Xua5OyNjd9KO3NnlXsPz-13" value="&lt;div&gt;分子：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;分母：固定值 365&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon× 分子 ÷ 365&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="18" y="490" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217" y="990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Xua5OyNjd9KO3NnlXsPz-17" value="&lt;div&gt;分子：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;分母：固定值 360&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon× 分子 ÷ 360&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="157" y="490" width="120" height="120" as="geometry" />
@@ -125,17 +138,35 @@
         <mxCell id="Xua5OyNjd9KO3NnlXsPz-29" value="=7" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="603" y="320" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.454;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-31" target="Xua5OyNjd9KO3NnlXsPz-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="496" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Xua5OyNjd9KO3NnlXsPz-31" value="&lt;div&gt;分子：按以下规则计算：&lt;/div&gt;&lt;div&gt;&amp;nbsp; 1. 月份差=inti_end_date-inti_start_date&lt;/div&gt;&lt;div&gt;&amp;nbsp; 2. 根据日期特殊情况调整：&lt;/div&gt;&lt;div&gt;&amp;nbsp; 若 inti_start_date 的日 ≤ 30，且 inti_end_date 的日 = 31，则分子 = 月份差 × 30 + 1；&lt;/div&gt;&lt;div&gt;&amp;nbsp; 若 inti_end_date 是闰年 2 月 29 日，则分子 = 月份差 × 30 - 1；&lt;/div&gt;&lt;div&gt;&amp;nbsp; 若 inti_end_date 是平年 2 月 28 日，则分子 = 月份差 × 30 - 2；&lt;/div&gt;&lt;div&gt;&amp;nbsp; 其他情况，分子 = 月份差 × 30；&lt;/div&gt;&lt;div&gt;&amp;nbsp;分母：固定值 360&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon× 分子 ÷ 360&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="431" y="490" width="130" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="Xua5OyNjd9KO3NnlXsPz-33" value="&lt;div&gt;分子：先计算基础天数：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; 再计算期间内的闰日数量(当前周期内包含多少个2.29)&lt;/div&gt;&lt;div&gt;&amp;nbsp; 分子 = 基础天数 - 闰日数量&lt;/div&gt;&lt;div&gt;分母：固定值 365&lt;/div&gt;&lt;div&gt;计算公式：应付利息 = issue_coupon × 分子 ÷ 365&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.571;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-33" value="&lt;div&gt;分子：先计算基础天数：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; 再计算期间内的闰日数量(当前周期内包含多少个2.29)&lt;/div&gt;&lt;div&gt;&amp;nbsp; 分子 = 基础天数 - 闰日数量&lt;/div&gt;&lt;div&gt;分母：固定值 365&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon × 分子 ÷ 365&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="490" width="140" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="Xua5OyNjd9KO3NnlXsPz-37" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="990" width="120" height="60" as="geometry" />
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="990" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Xua5OyNjd9KO3NnlXsPz-41" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="313" y="990" width="80" height="80" as="geometry" />
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-37" value="&lt;div&gt;此情况对应coupon_type in (1, 5)&amp;nbsp;&lt;/div&gt;&lt;div&gt;即计息方式为零息或贴现的情况&lt;/div&gt;&lt;div&gt;应付利息=0&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="945" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-41" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="950" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
