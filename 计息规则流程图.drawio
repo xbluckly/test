@@ -1,9 +1,142 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="第 1 页" id="2xiKHbp-xaJ31thIgsmb">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Xua5OyNjd9KO3NnlXsPz-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-7" target="Xua5OyNjd9KO3NnlXsPz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-7" value="获取计息规则的值&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;QUyFdpZaYoUa5oxpzLnckfCSnqh&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;interest_calculate_method&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+p&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7403194829083705347&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;288711ea-55db-4596-aad0-a6f6a18d320c&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:101,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:11,&amp;quot;end&amp;quot;:36},&amp;quot;recordId&amp;quot;:&amp;quot;R6VGdoI5ioZPNtxRUCXc80DUnUh&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;interest_calculate_method&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-9" target="Xua5OyNjd9KO3NnlXsPz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-16" value="!=" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-12">
+          <mxGeometry x="0.4" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-9" target="Xua5OyNjd9KO3NnlXsPz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-15" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-14">
+          <mxGeometry x="-0.0889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-9" value="=2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="38" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-11" target="Xua5OyNjd9KO3NnlXsPz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-21" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-18">
+          <mxGeometry x="-0.0667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-11" target="Xua5OyNjd9KO3NnlXsPz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-22" value="!=" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-20">
+          <mxGeometry x="-0.325" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-11" value="=3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-13" value="&lt;div&gt;分子：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;分母：固定值 365&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon× 分子 ÷ 365&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18" y="490" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-17" value="&lt;div&gt;分子：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;分母：固定值 360&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon× 分子 ÷ 360&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157" y="490" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-19" target="Xua5OyNjd9KO3NnlXsPz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-25" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-24">
+          <mxGeometry x="-0.3556" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-19" target="Xua5OyNjd9KO3NnlXsPz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-28" value="!=" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-27">
+          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-19" value="=4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-23" target="Xua5OyNjd9KO3NnlXsPz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-23" value="&lt;div&gt;分子：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;分母:inti_start_date+1年-period_start_date的天数&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon × 分子 ÷ 分母&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="490" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-26" target="Xua5OyNjd9KO3NnlXsPz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-40" value="!=" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-30">
+          <mxGeometry x="-0.1642" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-26" target="Xua5OyNjd9KO3NnlXsPz-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-35" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-32">
+          <mxGeometry x="-0.2889" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-26" value="=5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="456" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-29" target="Xua5OyNjd9KO3NnlXsPz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-36" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-34">
+          <mxGeometry x="-0.2889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xua5OyNjd9KO3NnlXsPz-29" target="Xua5OyNjd9KO3NnlXsPz-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-39" value="null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Xua5OyNjd9KO3NnlXsPz-38">
+          <mxGeometry x="-0.8515" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-29" value="=7" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-31" value="&lt;div&gt;分子：按以下规则计算：&lt;/div&gt;&lt;div&gt;&amp;nbsp; 1. 月份差=inti_end_date-inti_start_date&lt;/div&gt;&lt;div&gt;&amp;nbsp; 2. 根据日期特殊情况调整：&lt;/div&gt;&lt;div&gt;&amp;nbsp; 若 inti_start_date 的日 ≤ 30，且 inti_end_date 的日 = 31，则分子 = 月份差 × 30 + 1；&lt;/div&gt;&lt;div&gt;&amp;nbsp; 若 inti_end_date 是闰年 2 月 29 日，则分子 = 月份差 × 30 - 1；&lt;/div&gt;&lt;div&gt;&amp;nbsp; 若 inti_end_date 是平年 2 月 28 日，则分子 = 月份差 × 30 - 2；&lt;/div&gt;&lt;div&gt;&amp;nbsp; 其他情况，分子 = 月份差 × 30；&lt;/div&gt;&lt;div&gt;&amp;nbsp;分母：固定值 360&lt;/div&gt;&lt;div&gt;应付利息 = issue_coupon× 分子 ÷ 360&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="490" width="130" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-33" value="&lt;div&gt;分子：先计算基础天数：inti_end_date-inti_start_date天数 + 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; 再计算期间内的闰日数量(当前周期内包含多少个2.29)&lt;/div&gt;&lt;div&gt;&amp;nbsp; 分子 = 基础天数 - 闰日数量&lt;/div&gt;&lt;div&gt;分母：固定值 365&lt;/div&gt;&lt;div&gt;计算公式：应付利息 = issue_coupon × 分子 ÷ 365&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="490" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-37" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xua5OyNjd9KO3NnlXsPz-41" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
